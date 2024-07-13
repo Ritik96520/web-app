@@ -1,0 +1,92 @@
+.forgot-password2 {
+  position: relative;
+  font-size: var(--body-medium-semi-bold-size);
+  line-height: 1.25rem;
+  font-weight: 500;
+  font-family: var(--body-medium-semi-bold);
+  color: var(--primary-main);
+  text-align: left;
+  display: inline-block;
+  min-width: 7.5rem;
+}
+.forgot-password-link {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs);
+}
+.icon8 {
+  height: 1.25rem;
+  width: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 1.25rem;
+}
+.button5,
+.icon8,
+.icon9 {
+  position: relative;
+}
+.button5 {
+  font-size: var(--body-medium-semi-bold-size);
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: var(--body-medium-semi-bold);
+  color: var(--neutral-10);
+  text-align: center;
+  display: inline-block;
+  min-width: 2.875rem;
+}
+.icon9 {
+  height: 1.25rem;
+  width: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 1.25rem;
+}
+.button4 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl);
+  background-color: var(--primary-main);
+  align-self: stretch;
+  border-radius: var(--br-81xl);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.email-field1,
+.input-fields1,
+.login-actions {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.login-actions {
+  align-self: stretch;
+  flex-direction: column;
+  padding: 0 0 var(--padding-3xs);
+  gap: var(--gap-5xl);
+}
+.email-field1,
+.input-fields1 {
+  max-width: 100%;
+}
+.email-field1 {
+  margin: 0;
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-sm);
+}
+.input-fields1 {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-5xl);
+  box-sizing: border-box;
+}

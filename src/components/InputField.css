@@ -1,0 +1,58 @@
+.email-address,
+.enter-emaila {
+  font-weight: 500;
+  position: relative;
+  line-height: 1.25rem;
+}
+.email-address {
+  align-self: stretch;
+}
+.enter-emaila {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-family: var(--body-medium-semi-bold);
+  font-size: var(--body-medium-semi-bold-size);
+  background-color: transparent;
+  height: 1.25rem;
+  flex: 1;
+  color: var(--neutral-100);
+  text-align: left;
+  display: inline-block;
+  min-width: 11.063rem;
+  white-space: nowrap;
+  padding: 0;
+}
+.input,
+.input-field,
+.input1 {
+  align-self: stretch;
+  display: flex;
+}
+.input1 {
+  border-radius: var(--br-5xs);
+  background-color: var(--neutral-10);
+  border: 1px solid var(--neutral-40);
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-sm) var(--padding-mini);
+}
+.input,
+.input-field {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.input {
+  border-radius: var(--br-5xs);
+  overflow: hidden;
+  justify-content: center;
+}
+.input-field {
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--body-medium-semi-bold-size);
+  color: var(--neutral-100);
+  font-family: var(--body-medium-semi-bold);
+}

@@ -1,0 +1,92 @@
+.frame-inner {
+  align-self: stretch;
+  height: 0.031rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  min-width: 4rem;
+}
+.or-sign-in1 {
+  position: relative;
+  line-height: 1.25rem;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 6rem;
+}
+.vector-icon {
+  align-self: stretch;
+  height: 0.031rem;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.divider-inner1,
+.divider1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.divider-inner1 {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-3xs) 0 0;
+  box-sizing: border-box;
+  min-width: 4rem;
+}
+.divider1 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--gap-base);
+}
+.icon5 {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button3 {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: var(--br-81xl);
+  border: 1px solid var(--neutral-40);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-6xs);
+  cursor: pointer;
+}
+.social-button,
+.social-login-options {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.social-button {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-xl);
+}
+.social-login-options {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-6xl);
+  text-align: left;
+  font-size: var(--body-medium-semi-bold-size);
+  color: var(--neutral-60);
+  font-family: var(--body-medium-semi-bold);
+}

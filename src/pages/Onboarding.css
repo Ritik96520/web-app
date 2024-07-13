@@ -1,0 +1,149 @@
+.image-7-icon,
+.image-8-icon {
+  position: absolute;
+  top: -6.125rem;
+  left: -6.062rem;
+  width: 35.625rem;
+  height: 63rem;
+  object-fit: cover;
+}
+.image-7-icon {
+  top: -4.75rem;
+  left: -0.687rem;
+  width: 24.125rem;
+  height: 55.5rem;
+  z-index: 1;
+}
+.status-bar-background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.time {
+  margin-left: -0.063rem;
+  flex: 1;
+  position: relative;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.time-style {
+  height: 1.25rem;
+  width: 3.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.cellular-connection-icon,
+.wifi-icon {
+  height: 0.669rem;
+  width: 1.063rem;
+  position: relative;
+  z-index: 1;
+}
+.wifi-icon {
+  height: 0.688rem;
+  width: 0.956rem;
+}
+.border,
+.cap-icon {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border {
+  top: 0;
+  right: 0.144rem;
+  border-radius: 2.67px;
+  border: 1px solid var(--neutral-10);
+  box-sizing: border-box;
+  width: 1.375rem;
+  height: 0.706rem;
+  opacity: 0.35;
+}
+.cap-icon {
+  top: 0.231rem;
+  right: 0;
+  width: 0.081rem;
+  height: 0.25rem;
+}
+.capacity {
+  position: absolute;
+  top: 0.125rem;
+  right: 0.269rem;
+  border-radius: 1.33px;
+  background-color: var(--neutral-10);
+  width: 1.125rem;
+  height: 0.456rem;
+  z-index: 1;
+}
+.battery {
+  height: 0.706rem;
+  width: 1.519rem;
+  position: relative;
+  z-index: 1;
+}
+.connection,
+.status-icons {
+  display: flex;
+  align-items: flex-start;
+}
+.connection {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.status-icons {
+  width: 4.163rem;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-4);
+  box-sizing: border-box;
+}
+.iphone-xstatus-barsstatus-ba,
+.other {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.iphone-xstatus-barsstatus-ba {
+  flex: 1;
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-mini) var(--padding-xs)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.other {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+  text-align: center;
+  font-size: var(--body-medium-semi-bold-size);
+  color: var(--neutral-10);
+  font-family: var(--body-medium-semi-bold);
+}
+.onboarding2 {
+  width: 100%;
+  height: 50.75rem;
+  position: relative;
+  background-color: var(--neutral-10);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}

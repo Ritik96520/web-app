@@ -1,0 +1,78 @@
+.icon10 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 1.25rem;
+}
+.button7 {
+  position: relative;
+  font-size: var(--body-medium-semi-bold-size);
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: var(--body-medium-semi-bold);
+  color: var(--neutral-10);
+  text-align: center;
+}
+.icon11 {
+  height: 1.25rem;
+  width: 1.25rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 1.25rem;
+}
+.button6,
+.logout-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.button6 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl);
+  background-color: var(--primary-main);
+  flex: 1;
+  border-radius: var(--br-81xl);
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.logout-button {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-8xs) 0 var(--padding-4xs);
+}
+.logout {
+  align-self: stretch;
+  position: relative;
+  line-height: 1.25rem;
+  font-weight: 500;
+  z-index: 3;
+}
+.logout-button-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  max-width: 100%;
+}
+.button-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: center;
+  font-size: var(--body-medium-semi-bold-size);
+  color: var(--neutral-60);
+  font-family: var(--body-medium-semi-bold);
+}

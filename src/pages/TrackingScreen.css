@@ -1,0 +1,198 @@
+.status-bar-background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .time {
+    margin-left: -0.063rem;
+    flex: 1;
+    position: relative;
+    line-height: 1.25rem;
+    font-weight: 500;
+  }
+  .time-style {
+    height: 1.25rem;
+    width: 3.375rem;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0.125rem 0 0;
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .cellular-connection-icon,
+  .wifi-icon {
+    height: 0.669rem;
+    width: 1.063rem;
+    position: relative;
+    z-index: 1;
+  }
+  .wifi-icon {
+    height: 0.688rem;
+    width: 0.956rem;
+  }
+  .border,
+  .cap-icon {
+    position: absolute;
+    mix-blend-mode: normal;
+  }
+  .border {
+    top: 0;
+    right: 0.144rem;
+    border-radius: 2.67px;
+    border: 1px solid var(--neutral-10);
+    box-sizing: border-box;
+    width: 1.375rem;
+    height: 0.706rem;
+    opacity: 0.35;
+  }
+  .cap-icon {
+    top: 0.231rem;
+    right: 0;
+    width: 0.081rem;
+    height: 0.25rem;
+  }
+  .capacity {
+    position: absolute;
+    top: 0.125rem;
+    right: 0.269rem;
+    border-radius: 1.33px;
+    background-color: var(--neutral-10);
+    width: 1.125rem;
+    height: 0.456rem;
+    z-index: 1;
+  }
+  .battery {
+    height: 0.706rem;
+    width: 1.519rem;
+    position: relative;
+    z-index: 1;
+  }
+  .connectivity,
+  .signals {
+    display: flex;
+    align-items: flex-start;
+  }
+  .signals {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 0.312rem;
+  }
+  .connectivity {
+    width: 4.163rem;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 0.212rem;
+    box-sizing: border-box;
+  }
+  .iphone-xstatus-barsstatus-ba,
+  .other {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+  }
+  .iphone-xstatus-barsstatus-ba {
+    flex: 1;
+    overflow: hidden;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding: var(--padding-xs) 0.937rem var(--padding-xs) var(--padding-2xl);
+    box-sizing: border-box;
+    position: relative;
+    gap: 1.25rem;
+  }
+  .other {
+    align-self: stretch;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: center;
+    font-size: var(--body-medium-medium-size);
+    color: var(--neutral-10);
+    font-family: var(--body-medium-medium);
+  }
+  .tracking-screen1 {
+    margin: 0;
+    align-self: stretch;
+    position: relative;
+    font-size: inherit;
+    line-height: 2rem;
+    font-weight: 600;
+    font-family: inherit;
+  }
+  .read-the-project {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--body-medium-medium-size);
+    line-height: 1.25rem;
+    font-weight: 500;
+    color: var(--neutral-60);
+  }
+  .instructions,
+  .tracking-screen-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .tracking-screen-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 1.375rem;
+  }
+  .instructions {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 1.687rem 9.125rem var(--padding-2xl);
+    box-sizing: border-box;
+    text-align: center;
+    font-size: var(--heading-h5-semi-bold-size);
+    color: var(--neutral-100);
+    font-family: var(--body-medium-medium);
+  }
+  .background {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    margin: 0 !important;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .home-indicator {
+    height: 0.313rem;
+    width: 8.375rem;
+    position: relative;
+    border-radius: 100px;
+    background-color: var(--neutral-10);
+    z-index: 1;
+  }
+  .other1,
+  .tracking-screen {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+  }
+  .other1 {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1.437rem 1.25rem 0.5rem;
+  }
+  .tracking-screen {
+    width: 100%;
+    background-color: var(--neutral-10);
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 16rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }

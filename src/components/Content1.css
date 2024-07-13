@@ -1,0 +1,228 @@
+.background3 {
+  width: 19.438rem;
+  height: 25rem;
+  position: relative;
+  border-radius: var(--br-29xl);
+  background-color: var(--primary-main);
+  display: none;
+}
+.all-the-best1,
+.headline1 {
+  position: relative;
+  z-index: 2;
+}
+.headline1 {
+  margin: 0;
+  width: 15.75rem;
+  font-size: inherit;
+  line-height: 2.5rem;
+  font-weight: 600;
+  font-family: inherit;
+  display: inline-block;
+}
+.all-the-best1 {
+  flex: 1;
+  line-height: 1.25rem;
+}
+.description1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 var(--padding-5xs);
+  font-size: var(--body-medium-semi-bold-size);
+}
+.indicator-child,
+.indicator2 {
+  height: 0.375rem;
+  width: 1.5rem;
+  border-radius: var(--br-81xl);
+  background-color: var(--neutral-50);
+}
+.indicator-child {
+  position: relative;
+  display: none;
+}
+.indicator2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.inactive-indicator-background,
+.inactive-indicator-child {
+  position: absolute;
+  top: 0;
+  border-radius: var(--br-81xl);
+  width: 1.5rem;
+  height: 0.375rem;
+  z-index: 2;
+}
+.inactive-indicator-child {
+  left: 1.75rem;
+}
+.inactive-indicator-background {
+  left: 0;
+  background-color: var(--neutral-50);
+}
+.inactive-indicator {
+  height: 0.375rem;
+  flex: 1;
+  position: relative;
+}
+.indicator-container {
+  width: 5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+}
+.headline-group,
+.page-indicator {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+}
+.page-indicator {
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 var(--padding-8xl) 0 var(--padding-xl);
+}
+.headline-group {
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-base);
+}
+.arrow-right {
+  height: 1.5rem;
+  width: 1.5rem;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button-background,
+.buttonfullcircle {
+  position: absolute;
+  margin: 0 !important;
+  box-sizing: border-box;
+}
+.buttonfullcircle {
+  height: 3.875rem;
+  width: 3.875rem;
+  top: calc(50% - 31px);
+  left: calc(50% - 31px);
+  border-radius: var(--br-65xl);
+  background-color: var(--neutral-10);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-xl) var(--padding-lgi);
+}
+.button-background {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: -0.125rem;
+  bottom: -0.125rem;
+  left: 0;
+  border-radius: 50%;
+  border: 0 solid var(--neutral-10);
+  opacity: 0.08;
+  z-index: 1;
+}
+.progress-button-child {
+  height: 5.875rem;
+  width: 5.875rem;
+  position: relative;
+  z-index: 2;
+}
+.progress-button,
+.progress-button1 {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.progress-button1 {
+  position: relative;
+}
+.progress-button {
+  cursor: pointer;
+  z-index: 2;
+}
+.progress-button-wrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-67xl) 0 var(--padding-60xl);
+}
+.background-parent,
+.content-inner,
+.progress-button-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.background-parent {
+  flex: 1;
+  border-radius: var(--br-29xl);
+  background-color: var(--primary-main);
+  flex-direction: column;
+  padding: var(--padding-13xl) var(--padding-3xl) var(--padding-13xl)
+    var(--padding-11xl);
+  gap: var(--gap-5xl);
+  z-index: 1;
+}
+.content-inner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-13xl);
+}
+.background4 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.home-indicator6 {
+  height: 0.313rem;
+  width: 8.375rem;
+  position: relative;
+  border-radius: var(--br-81xl);
+  background-color: var(--neutral-10);
+  z-index: 1;
+}
+.content1,
+.other12 {
+  display: flex;
+  align-items: flex-start;
+}
+.other12 {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-4xl) var(--padding-xl) var(--padding-5xs);
+  position: relative;
+  z-index: 1;
+}
+.content1 {
+  position: absolute;
+  top: 23.25rem;
+  left: 0;
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: center;
+  font-size: var(--heading-h4-semi-bold-size);
+  color: var(--neutral-10);
+  font-family: var(--body-medium-semi-bold);
+}

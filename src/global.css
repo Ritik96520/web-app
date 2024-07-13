@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --body-medium-semi-bold: Inter;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+
+  /* font sizes */
+  --body-medium-semi-bold-size: 0.875rem;
+  --heading-h4-semi-bold-size: 2rem;
+  --font-size-base: 1rem;
+  --heading-h5-semi-bold-size: 1.5rem;
+
+  /* Colors */
+  --neutral-10: #fff;
+  --primary-main: #fe8c00;
+  --neutral-50: #c2c2c2;
+  --no-color-0: rgba(196, 196, 196, 0);
+  --neutral-60: #878787;
+  --color-gray-100: #292a2e;
+  --neutral-100: #101010;
+  --black-secondary-20: rgba(0, 0, 0, 0.2);
+  --neutral-40: #d6d6d6;
+  --neutral-30: #ededed;
+
+  /* Gaps */
+  --gap-10xs: 0.187rem;
+  --gap-79xl: 6.125rem;
+  --gap-xl: 1.25rem;
+  --gap-5xs: 0.5rem;
+  --gap-base: 1rem;
+  --gap-9xs: 0.25rem;
+  --gap-8xs: 0.312rem;
+  --gap-5xl: 1.5rem;
+  --gap-13xl: 2rem;
+  --gap-sm: 0.875rem;
+  --gap-6xl: 1.562rem;
+  --gap-sm-5: 0.843rem;
+  --gap-3xl: 1.375rem;
+
+  /* Paddings */
+  --padding-4xl: 1.437rem;
+  --padding-xl: 1.25rem;
+  --padding-5xs: 0.5rem;
+  --padding-13xl: 2rem;
+  --padding-3xl: 1.375rem;
+  --padding-11xl: 1.875rem;
+  --padding-3xs: 0.625rem;
+  --padding-11xs: 0.125rem;
+  --padding-8xl: 1.687rem;
+  --padding-xs: 0.75rem;
+  --padding-mini: 0.937rem;
+  --padding-2xl: 1.312rem;
+  --padding-9xs-4: 0.212rem;
+  --padding-67xl: 5.375rem;
+  --padding-60xl: 4.937rem;
+  --padding-lgi: 1.187rem;
+  --padding-5xl: 1.5rem;
+  --padding-35xl: 3.375rem;
+  --padding-37xl: 3.5rem;
+  --padding-6xs: 0.437rem;
+  --padding-base: 1rem;
+  --padding-sm: 0.875rem;
+  --padding-59xl: 4.875rem;
+  --padding-8xs: 0.312rem;
+  --padding-4xs: 0.562rem;
+
+  --padding-2xl: 1.312rem;
+  --padding-xs: 0.75rem;
+
+  /* Border radiuses */
+  --br-81xl: 100px;
+  --br-29xl: 48px;
+  --br-11xs-3: 1.3px;
+  --br-10xs-7: 2.7px;
+  --br-65xl: 84px;
+  --br-5xs: 8px;
+  --br-9xs: 4px;
+  --br-5xl: 24px;
+}

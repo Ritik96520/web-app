@@ -1,0 +1,54 @@
+.icon3 {
+  height: 1.25rem;
+  width: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 1.25rem;
+}
+.button2,
+.icon3,
+.icon4 {
+  position: relative;
+}
+.button2 {
+  font-size: var(--body-medium-semi-bold-size);
+  line-height: 1.25rem;
+  font-weight: 600;
+  font-family: var(--body-medium-semi-bold);
+  color: var(--neutral-10);
+  text-align: center;
+  display: inline-block;
+  min-width: 2.875rem;
+}
+.icon4 {
+  height: 1.25rem;
+  width: 1.25rem;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+  min-height: 1.25rem;
+}
+.button1,
+.login-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-base) var(--padding-xl);
+  background-color: var(--primary-main);
+  flex: 1;
+  border-radius: var(--br-81xl);
+  justify-content: center;
+  gap: var(--gap-5xs);
+}
+.login-button {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-3xs);
+}

@@ -1,0 +1,138 @@
+.image-9-icon,
+.status-bar-background1 {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.image-9-icon {
+  object-fit: cover;
+}
+.status-bar-background1 {
+  margin: 0 !important;
+  right: 0;
+  bottom: 0;
+}
+.time1 {
+  margin-left: -0.063rem;
+  flex: 1;
+  position: relative;
+  line-height: 1.25rem;
+  font-weight: 500;
+}
+.time-style1 {
+  height: 1.25rem;
+  width: 3.375rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-11xs) 0 0;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.cellular-connection-icon1,
+.wifi-icon1 {
+  height: 0.669rem;
+  width: 1.063rem;
+  position: relative;
+  z-index: 1;
+}
+.wifi-icon1 {
+  height: 0.688rem;
+  width: 0.956rem;
+}
+.border1,
+.cap-icon1 {
+  position: absolute;
+  mix-blend-mode: normal;
+}
+.border1 {
+  top: 0;
+  right: 0.144rem;
+  border-radius: 2.67px;
+  border: 1px solid var(--neutral-10);
+  box-sizing: border-box;
+  width: 1.375rem;
+  height: 0.706rem;
+  opacity: 0.35;
+}
+.cap-icon1 {
+  top: 0.231rem;
+  right: 0;
+  width: 0.081rem;
+  height: 0.25rem;
+}
+.capacity1 {
+  position: absolute;
+  top: 0.125rem;
+  right: 0.269rem;
+  border-radius: 1.33px;
+  background-color: var(--neutral-10);
+  width: 1.125rem;
+  height: 0.456rem;
+  z-index: 1;
+}
+.battery1 {
+  height: 0.706rem;
+  width: 1.519rem;
+  position: relative;
+  z-index: 1;
+}
+.connection-indicators {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+}
+.status-bar-right {
+  width: 4.163rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-9xs-4);
+  box-sizing: border-box;
+}
+.iphone-xstatus-barsstatus-ba1,
+.other1 {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+}
+.iphone-xstatus-barsstatus-ba1 {
+  flex: 1;
+  overflow: hidden;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-xs) var(--padding-mini) var(--padding-xs)
+    var(--padding-2xl);
+  box-sizing: border-box;
+  position: relative;
+  gap: var(--gap-xl);
+}
+.other1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 1;
+  text-align: center;
+  font-size: var(--body-medium-semi-bold-size);
+  color: var(--neutral-10);
+  font-family: var(--body-medium-semi-bold);
+}
+.onboarding3 {
+  width: 100%;
+  height: 50.75rem;
+  position: relative;
+  background-color: var(--neutral-10);
+  overflow: hidden;
+  line-height: normal;
+  letter-spacing: normal;
+}
